@@ -1,4 +1,4 @@
-package ru.bluewhale.img;
+package ru.bluewhale.io.img;
 
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
@@ -9,7 +9,7 @@ import org.opencv.core.Mat;
 
 import javafx.scene.control.ScrollPane;
 
-import static ru.bluewhale.img.ConvertToBufferedImage.mat2ImageFX;
+import static ru.bluewhale.io.img.ConvertToBufferedImage.mat2ImageFX;
 
 public class SceneFX {
     public static void showImage(Mat img, String title) {

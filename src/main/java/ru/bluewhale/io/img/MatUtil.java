@@ -1,4 +1,4 @@
-package ru.bluewhale.img;
+package ru.bluewhale.io.img;
 
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;

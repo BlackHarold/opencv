@@ -1,4 +1,4 @@
-package ru.bluewhale.img;
+package ru.bluewhale.io.img;
 
 import javafx.application.Application;
 import javafx.application.Platform;

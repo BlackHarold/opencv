@@ -1,4 +1,4 @@
-package ru.bluewhale.img;
+package ru.bluewhale.io.img;
 
 import org.opencv.core.Mat;
 
@@ -7,7 +7,7 @@ import java.awt.image.BufferedImage;
 
 public class SceneAWT {
     public static void showImage(Mat img, String title) {
-        BufferedImage im = ConvertToBufferedImage.mat2BufferedImage((img));
+        BufferedImage im = CVUtils.mat2BufferedImage((img));
         if (im == null) return;
         int w = 1000, h = 600;
         JFrame window = new JFrame(title);

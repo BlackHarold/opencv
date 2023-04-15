@@ -11,7 +11,7 @@ import org.opencv.imgproc.Imgproc;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
 
-public class ConvertToBufferedImage {
+public class CVUtils {
 
     public static BufferedImage mat2BufferedImage(Mat m) {
         if (m == null || m.empty()) return null;
